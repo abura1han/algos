@@ -8,7 +8,7 @@ void bubbleSort(int array[], int size, char order[])
     {
         for (j = 0; j < size - i - 1; j++)
         {
-            if (order == "asc")
+            if (order == "des")
             {
                 if (array[j] < array[j + 1])
                 {
@@ -17,7 +17,7 @@ void bubbleSort(int array[], int size, char order[])
                     array[j + 1] = temp;
                 }
             }
-            else if (order == "des")
+            else if (order == "asc")
             {
                 if (array[j] > array[j + 1])
                 {
