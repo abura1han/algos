@@ -17,7 +17,7 @@ void bubbleSort(int array[], int size, char order[])
                     array[j + 1] = temp;
                 }
             }
-            else if (order == "dec")
+            else if (order == "des")
             {
                 if (array[j] > array[j + 1])
                 {
